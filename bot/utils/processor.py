@@ -187,7 +187,7 @@ class Processor:
 
     def create_embed(self):
         self.embed = Embed(
-            colour=random.choice(COLORS),
+            colour=0xee682a),
             url="https://twitter.com/{}/status/{}".format(
                 self.status_tweet["user"]["screen_name"], self.status_tweet["id_str"]
             ),
